@@ -1,0 +1,6 @@
+num = int(input('Digite aqui um número entre 0 e 9999: '))
+lista = str(num)
+print('Unidade: {}'.format(lista[3]))
+print('Dezena: {}'.format(lista[2]))
+print('Centena: {}'.format(lista[1]))
+print('Milhar: {}'.format(lista[0]))
